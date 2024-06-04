@@ -17,6 +17,8 @@
         <AssemblyName>Pixel.Godot.Pck</AssemblyName>
         <RootNamespace>Pixel.Godot.Pck</RootNamespace>
         <PackageId>Pixel.Godot.Pck</PackageId>
+        <Version>1.0.1</Version>
+        <PackageReadmeFile>README.MD</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -27,6 +29,9 @@
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Update="icon.png" Pack="true" PackagePath="">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="README.MD" Pack="true" PackagePath="">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>

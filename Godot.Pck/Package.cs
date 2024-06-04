@@ -54,8 +54,19 @@ public class Package
     {
         if (mode == PckMode.Create)
         {
+            if (Directory.Exists(pckPath))
+            {
+                throw new FileNotFoundException("Given path is directory");
+            }
             _pendingCreation = true;
             _cacheNeedsUpdate = true;
+        }
+        else
+        {
+            if (!File.Exists(pckPath))
+            {
+                throw new FileNotFoundException();
+            }
         }
 
         _cacheNeedsUpdate = false;
@@ -125,6 +136,7 @@ public class Package
     /// <param name="dest"></param>
     public void Extract(string dest)
     {
+        Directory.CreateDirectory(dest);
         if (_pendingCreation)
         {
             return;
