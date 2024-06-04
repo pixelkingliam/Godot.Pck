@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Godot.Pck</Title>
+        <Authors>Pixel</Authors>
+        <Description>Wrapper for Henri Hyyryläinen's GodotPckTool. Provides extra functions. </Description>
+        <Copyright>Copyright © 2024 Pixel</Copyright>
+        <PackageProjectUrl>https://github.com/pixelkingliam/Godot.Pck</PackageProjectUrl>
+        <PackageLicenseUrl>https://opensource.org/license/mit</PackageLicenseUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/hhyyrylainen/GodotPckTool</RepositoryUrl>
+        <RepositoryType>Original CLI program</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="godotpcktool">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+        <None Update="godotpcktool.exe">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

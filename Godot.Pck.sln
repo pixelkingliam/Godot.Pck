@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot.Pck", "Godot.Pck\Godot.Pck.csproj", "{F67D4149-AF4F-42E9-903B-74064B7471F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot.Pck.Tests", "Godot.Pck.Tests\Godot.Pck.Tests.csproj", "{F82D1185-C1CA-478A-8723-DA5A7ABBA01A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F67D4149-AF4F-42E9-903B-74064B7471F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67D4149-AF4F-42E9-903B-74064B7471F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67D4149-AF4F-42E9-903B-74064B7471F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67D4149-AF4F-42E9-903B-74064B7471F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82D1185-C1CA-478A-8723-DA5A7ABBA01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82D1185-C1CA-478A-8723-DA5A7ABBA01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82D1185-C1CA-478A-8723-DA5A7ABBA01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82D1185-C1CA-478A-8723-DA5A7ABBA01A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
