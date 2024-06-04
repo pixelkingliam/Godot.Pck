@@ -14,14 +14,20 @@
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/hhyyrylainen/GodotPckTool</RepositoryUrl>
         <RepositoryType>Original CLI program</RepositoryType>
+        <AssemblyName>Pixel.Godot.Pck</AssemblyName>
+        <RootNamespace>Pixel.Godot.Pck</RootNamespace>
+        <PackageId>Pixel.Godot.Pck</PackageId>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="godotpcktool">
+      <None Update="godotpcktool" Pack="true" PackagePath="">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-        <None Update="godotpcktool.exe">
+        <None Update="godotpcktool.exe" Pack="true" PackagePath="">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="icon.png" Pack="true" PackagePath="">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
 
